@@ -1,0 +1,53 @@
+body {
+   margin: 45px 45px;
+   background-color: rgb(255, 231, 207);
+}
+#div1 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+#div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#city {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+label {
+    color: dimgray;
+    font-size: 13px;
+    font-family: sans-serif;
+    opacity: 70%;
+}
+.titre {
+    font-weight: 4px;
+    font-size: 17px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 35px;
+    border-style: none;
+    border-width: 0px;
+}
+select {
+    width: 250px;
+    height: 30px;
+    border-style: none;
+    border-width: 0px;
+}
+#submit {
+    justify-content: center;
+    position: absolute;
+    left: 516px;
+    top: 500px;
+}
